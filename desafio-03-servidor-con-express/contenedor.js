@@ -26,7 +26,7 @@ class Contenedor {
     }
 
     save = async obj => {
-        let productos = this.getAll();
+        let productos = await this.getAll();
         try{
             let newId;
             productos.length === 0 ? newId = 1 : newId = productos[productos.length-1].id + 1;
@@ -42,7 +42,7 @@ class Contenedor {
     getById = async id => {
         let productos = await this.getAll();
         try {
-            const obj = productos.find(id => productos.id === id);
+            const obj = productos.find(obj => obj.id === id);
             return obj ? obj : null;
         }catch(err) {
             console.log(`error: ${err}`);
