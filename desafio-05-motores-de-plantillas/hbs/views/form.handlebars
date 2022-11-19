@@ -1,0 +1,25 @@
+<section class='p-4 bg-secondary'>
+	<h2 class='text-primary'>Ingrese Producto</h2>
+	<form action='/products' method='POST'>
+		<div class='mb-3'>
+			<label class='form-label fw-bold' for='name'>Nombre</label>
+			<input class='form-control' type='text' name='name' />
+		</div>
+		<div class='mb-3'>
+			<label class='form-label fw-bold' for='price'>Precio</label>
+			<input class='form-control' type='number' name='price' />
+		</div>
+		<div class='mb-3'>
+			<label class='form-label fw-bold' for='picture'>Foto URL</label>
+			<input class='form-control' type='url' name='picture' />
+		</div>
+		<div class='mb-3'>
+			<input class='btn btn-success' type='submit' value='Enviar' />
+		</div>
+	</form>
+	<div>
+		<a href='/'>
+			<button class='btn btn-warning'>Ver Productos</button>
+		</a>
+	</div>
+</section>
