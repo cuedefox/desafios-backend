@@ -37,7 +37,8 @@
 15- db.productos.updateMany({}, {$set: {stock: 100}})
 16- db.productos.updateMany({price: {$gt: 4000}}, {$set: {stock: 0}})
 17- db.productos.deleteMany({price: {$lt: 1000}})
-18- db.createUser(
+18- use admin
+19- db.createUser(
   {
     user: "pepe",
     pwd: "asd456",
@@ -46,5 +47,5 @@
     ]
   }
 )
-19- mongod --dbpath Base --auth (otra terminal)
-20- pruebo con d.productos.insertOne en productos para comprobar que sea un usuario solo de lectura
+20- mongod --dbpath Base --auth (otra terminal)
+21- pruebo con d.productos.insertOne en productos para comprobar que sea un usuario solo de lectura
