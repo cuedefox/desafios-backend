@@ -21,7 +21,7 @@ app.set('view engine', 'pug');
 app.use('/api/products', productsRouter);
 app.use('/api/chat', chatRouter);
 app.get('/', viewProductPage);
-app.get('/test/products', viewProductTestPage);
+app.get('/api/productos-test', viewProductTestPage);
 
 io.on('connection', main);
 httpServer.listen(PORT, () => console.log(`Open server on port ${PORT}`));
