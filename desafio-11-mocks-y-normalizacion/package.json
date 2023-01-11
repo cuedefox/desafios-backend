@@ -1,0 +1,28 @@
+{
+  "name": "challenge9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "DBscript": "node ./store/script.js"
+  },
+  "keywords": [],
+  "author": "Rodrigo Vergara",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.0",
+    "knex": "^2.4.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16",
+    "normalizr": "^3.6.2",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.0",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.2.0"
+  }
+}
