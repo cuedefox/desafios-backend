@@ -33,7 +33,7 @@ class Contenedor {
             let newObj = {...obj, id: newId};
             productos.push(newObj);
             await this.writeFile(productos);
-            return newObj.id;
+            return newId;
         }catch(err) {
             console.log(`error: ${err}`);
         }

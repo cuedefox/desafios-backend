@@ -1,0 +1,14 @@
+<div class="d-grid col-4 bg-light">
+        <h2 class="text-primary ms-3 mt-2">Registro de usuario</h2>
+        <form id="register" class="d-flex flex-column ms-3 me-3" action="http://localhost:8080/api/sign-up" method="post">
+            <label for="email"><i><b>Email</b></i></label>
+            <input id="email" class="mb-3" type="email" name="email" required/>
+            <label for="password"><i><b>Contraseña</b></i></label>
+            <input id="password" class="mb-3" type="password" name="password" required/>
+            <button type="submit" id="register-boton" class="d-grid col-3 mb-3 btn btn-success">Register</button>
+        </form>
+        <hr>
+        <form id="to-login" class="d-flex flex-column ms-3 me-3" action="http://localhost:8080/api/login" method="get">
+            <button type="submit" id="login-redirect" class="d-grid col-3 mb-3 btn btn-success">Ir a Login</button>
+        </form>
+</div>
