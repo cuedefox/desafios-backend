@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="/socket.io/socket.io.min.js"></script>
+    <title>Desafio 14</title>
+</head>
+<body>
+    
+    <div class="d-flex col-4 bg-success text-dark bg-opacity-25">
+        <h2 id="usuario" class="text-success ms-3 mt-2">Bienvenido</h2>
+        <button id="logout-boton" class="col-3 mb-3 mt-2 me-3 btn btn-warning ms-auto">Desloguear</button>
+    </div>
+
+    <div class="d-grid col-4 bg-light">
+        <h2 class="text-primary ms-3 mt-2">Generar 5 productos Faker</h2>
+        <form id="form-products" class="d-flex flex-column ms-3 me-3" action="http://localhost:8080/api/productos-test" method="post">
+            <button id="generarFaker" class="d-grid col-2 mb-3 btn btn-success">Enviar</button>
+        </form>
+    </div>
+    
+    <div class="d-grid col-3 bg-light">
+        <table  class="table table-dark align-middle me-3 ms-3">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th class="text-center">Precio</th>
+                    <th class="text-center">Foto</th>
+                </tr>
+            </thead>
+            <tbody id="table-products">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <div class="d-grid col-4 bg-light">
+        <h2 id="centroDeMensajes" class="text-primary ms-3 mt-2">Centro de Mensajes</h2>
+        <form id="form-message" class="d-flex flex-column ms-3 me-3">
+            <input id="input-email" class="mb-3" type="email" name="email" required placeholder="Email"/>
+            <input id="input-nombre" class="mb-3" type="text" name="nombre" required placeholder="Nombre"/>
+            <input id="input-apellido" class="mb-3" type="text" name="apellido" required placeholder="Apellido"/>
+            <input id="input-edad" class="mb-3" type="text" name="edad" required placeholder="Edad"/>
+            <input id="input-alias" class="mb-3" type="text" name="alias" required placeholder="Alias"/>
+            <input id="input-avatar" class="mb-3" type="text" name="avatar" required placeholder="Avatar"/>
+            <hr>
+            <ul id="list-messages">
+
+            </ul>
+            <div class="d-flex gap-2">
+                <input id="input-message" class="mb-3 d-grid col-6" type="text" name="message" required placeholder="Ingresá un mensaje...">
+                <button type="submit" class="mb-3 btn btn-primary">Enviar!</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
