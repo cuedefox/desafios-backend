@@ -5,7 +5,7 @@ const { engine } = require('express-handlebars');
 const Container = require('./container.js');
 const { optionsMariaDB, optionsSQLite3 } = require('./options/config.js');
 
-const PORT = 8080;
+const PORT = 8081;
 const app = express();
 const httpserver = new HttpServer(app);
 const io = new IOServer(httpserver);
