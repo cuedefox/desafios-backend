@@ -7,6 +7,6 @@ const logger = winston.createLogger({
         new winston.transports.File({ filename: 'warn.log', level: 'warn' }),
         new winston.transports.File({ filename: 'error.log', level: 'error' }),
     ]
-}); // Silly, Debug, Verbose, Info, Warn, Error 
+});
 
 export default logger;
