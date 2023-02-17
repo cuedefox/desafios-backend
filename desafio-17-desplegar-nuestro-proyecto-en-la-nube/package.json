@@ -1,0 +1,36 @@
+{
+  "name": "desafio14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node benchmark.js",
+    "start": "node -r dotenv/config .",
+    "dev": "nodemon --exec node -r dotenv/config ."
+  },
+  "author": "Rodrigo Vergara",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "artillery": "^2.0.0-30",
+    "autocannon": "^7.10.0",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "minimist": "^1.2.8",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.1",
+    "normalizr": "^3.6.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.6.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
