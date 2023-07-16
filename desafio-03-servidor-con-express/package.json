@@ -1,15 +1,16 @@
 {
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
   "name": "desafio-03-servidor-con-express",
   "version": "1.0.0",
-  "main": "contenedor.js",
-  "devDependencies": {},
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

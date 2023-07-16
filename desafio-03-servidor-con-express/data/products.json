@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Metal Gear Solid 3",
+    "description": "Best Game Ever",
+    "price": 600,
+    "thumbnail": "https://static.wikia.nocookie.net/metalgear/images/9/97/Metal_Gear_Solid_Subsistence.jpg/revision/latest?cb=20090809021800&path-prefix=es",
+    "code": "ABC123",
+    "stock": 10,
+    "id": 1
+  },
+  {
+    "title": "Metal Gear Solid 4",
+    "description": "Second best Game Ever",
+    "price": 610,
+    "thumbnail": "https://static.wikia.nocookie.net/metalgear/images/6/69/Metal_gear_solid_4_caratula.jpg/revision/latest?cb=20130526191208&path-prefix=es",
+    "code": "LAAAAL",
+    "stock": 15,
+    "id": 2
+  }
+]
