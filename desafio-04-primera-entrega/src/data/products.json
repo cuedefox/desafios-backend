@@ -1,0 +1,13 @@
+[
+  {
+    "title": "COD WW2",
+    "description": "Altos zombies",
+    "price": 670,
+    "thumbnail": "https://static.wikia.nocookie.net/metalgear/images/9/97/Metal_Gear_Solid_Subsistence.jpg/revision/latest?cb=20090809021800&path-prefix=es",
+    "code": "ARCM43",
+    "stock": 64,
+    "category": "shooter",
+    "status": true,
+    "id": 1
+  }
+]

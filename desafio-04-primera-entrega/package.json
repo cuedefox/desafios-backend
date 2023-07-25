@@ -1,12 +1,12 @@
 {
-  "name": "desafio-03-servidor-con-express",
+  "name": "desafio-04-primera-entrega",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/app.js"
+    "start": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
