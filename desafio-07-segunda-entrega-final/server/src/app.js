@@ -5,6 +5,7 @@ import handlebars from "express-handlebars";
 import __dirname from './utils.js';
 import http from 'http';
 import { Server } from "socket.io";
+import cors from 'cors';
 
 const app = express();
 const server = http.createServer(app);
@@ -13,6 +14,8 @@ const PORT = process.env.PORT || 8080;
 
 app.use(express.json());
 app.use(urlencoded({extended: true}));
+
+app.use(cors());
 
 app.use(express.static(__dirname + '/public'));
 
