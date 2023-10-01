@@ -1,0 +1,24 @@
+[
+  {
+    "title": "COD WW2",
+    "description": "Altos zombies",
+    "price": 670,
+    "thumbnail": "https://www.analisisdigital.com.ar/sites/default/files/styles/noticias_front_desktop/public/imagenNoticiaDigital/f17cqq1waaana0k.png?itok=gTXZQ994&timestamp=1690331455",
+    "code": "ARCM43",
+    "stock": 64,
+    "category": "shooter",
+    "status": true,
+    "id": 1
+  },
+  {
+    "title": "Battlefront 2",
+    "description": "Best sw game",
+    "price": 452,
+    "thumbnail": "https://www.analisisdigital.com.ar/sites/default/files/styles/noticias_front_desktop/public/imagenNoticiaDigital/f17cqq1waaana0k.png?itok=gTXZQ994&timestamp=1690331455",
+    "code": "ORDR66",
+    "stock": 4,
+    "category": "shooter",
+    "status": true,
+    "id": 2
+  }
+]
