@@ -18,9 +18,9 @@ router.get('/:cid', getCartControllers);
 
 router.post('/', authUser, createCartControllers);
 
-router.post('/:cid/product/:pid',  addProductToCartControllers);
+router.post('/:cid/product/:pid', authUser, addProductToCartControllers);
 
-router.post("/:cid/purchase", purchaseCartControllers);
+router.post("/:cid/purchase", authUser, purchaseCartControllers);
 
 router.put('/:cid', authUser, updateCartControllers);
 
