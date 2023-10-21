@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+$color1: #180A0A;
+$color2: #711A75;
+$color3: #F10086;
+$color4: #F582A7;

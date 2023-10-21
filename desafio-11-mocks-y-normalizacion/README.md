@@ -1,1 +1,0 @@
-Ejecutar database sqlite para que funcione el home.
