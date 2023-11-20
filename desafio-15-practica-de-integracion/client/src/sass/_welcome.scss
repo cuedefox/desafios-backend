@@ -1,0 +1,14 @@
+.welcome-products-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: $color2;
+    flex-wrap: nowrap;
+    div {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
