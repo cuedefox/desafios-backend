@@ -1,0 +1,13 @@
+paths:
+  /api/carts/:cid:
+    get:
+      summary: Get a cart by id
+      tags:
+        - Carrito
+      responses:
+        "200":
+          description: Cart.
+          content:
+            application/json:
+              schema:
+                type: array

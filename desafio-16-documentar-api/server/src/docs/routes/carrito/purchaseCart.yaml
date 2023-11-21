@@ -1,0 +1,13 @@
+paths:
+  /api/carts/:cid/purchase:
+    post:
+      summary: Buy the cart and generate an order
+      tags:
+        - Carrito
+      responses:
+        "200":
+          description: Cart.
+          content:
+            application/json:
+              schema:
+                type: array
