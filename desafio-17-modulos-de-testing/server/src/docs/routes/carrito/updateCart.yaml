@@ -1,0 +1,13 @@
+paths:
+  /api/carts/:cid/product/:pid:
+    put:
+      summary: Update the cart
+      tags:
+        - Carrito
+      responses:
+        "200":
+          description: Cart.
+          content:
+            application/json:
+              schema:
+                type: array
