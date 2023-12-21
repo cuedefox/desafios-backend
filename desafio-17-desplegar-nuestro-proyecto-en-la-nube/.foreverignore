@@ -1,3 +1,0 @@
-# This basically tells forever to ignore changes to these files and not to restart if anything happens to them
-
-node_modules/*
